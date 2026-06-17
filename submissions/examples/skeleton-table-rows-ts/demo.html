@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skeleton Table Loading Rows</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="demo-shell">
+    <section class="skeleton-panel" aria-labelledby="demo-title">
+      <div class="panel-header">
+        <div>
+          <p class="eyebrow">Loading state</p>
+          <h1 id="demo-title">Skeleton table rows</h1>
+        </div>
+        <span class="loading-pill">Fetching data</span>
+      </div>
+
+      <div class="skeleton-table" aria-label="Loading invoices">
+        <div class="skeleton-head">
+          <span>Invoice</span>
+          <span>Status</span>
+          <span>Customer</span>
+          <span>Total</span>
+        </div>
+
+        <div class="skeleton-row">
+          <span class="skeleton-cell wide"></span>
+          <span class="skeleton-cell short"></span>
+          <span class="skeleton-cell"></span>
+          <span class="skeleton-cell tiny"></span>
+        </div>
+        <div class="skeleton-row">
+          <span class="skeleton-cell"></span>
+          <span class="skeleton-cell short"></span>
+          <span class="skeleton-cell wide"></span>
+          <span class="skeleton-cell tiny"></span>
+        </div>
+        <div class="skeleton-row">
+          <span class="skeleton-cell wide"></span>
+          <span class="skeleton-cell short"></span>
+          <span class="skeleton-cell"></span>
+          <span class="skeleton-cell tiny"></span>
+        </div>
+        <div class="skeleton-row">
+          <span class="skeleton-cell"></span>
+          <span class="skeleton-cell short"></span>
+          <span class="skeleton-cell wide"></span>
+          <span class="skeleton-cell tiny"></span>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
